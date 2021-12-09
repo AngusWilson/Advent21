@@ -3,7 +3,7 @@ input:read0 `:inputs/day09.txt
 d9p1:{[input]
     grid:(`int$input)-48;
     i:j:0;
-    minloc:()
+    minloc:();
     while[i<count grid;
         while[j<count first grid;
             if[all grid[i;j]</:(grid ./: (i;j)+'/:(0 -1;0 1;-1 0;1 0))except 0N;
