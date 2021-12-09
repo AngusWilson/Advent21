@@ -41,8 +41,8 @@ d9p2:{[input]
     ff node+(-1 0);
     ff node+(0 -1);
     ff node+(0 1);
-    1b;
-    }
+    1b
+    };
     
     .aoc.currentBasinID:i:j:0;
     while[j<count bool;
